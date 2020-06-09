@@ -1,8 +1,9 @@
 import React from 'react';
+import './Hello.CSS'
 
 const Hello = () =>{
 	return(
-		<div>
+		<div className='myName'>
 			<p>I am new component</p>
 		</div>
 		)
