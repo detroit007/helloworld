@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './Hello.CSS'
+import Hello from './Hello'
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
           <br/>
           by Hamza Yousaf
+          <Hello/>
         </p>
         <a
           className="App-link"
