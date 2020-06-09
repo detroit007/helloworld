@@ -1,10 +1,14 @@
 import React from 'react';
-import './Hello.CSS'
+import './Hello.css'
 
 const Hello = () =>{
-	return(
-		<div className='myName'>
-			<p>I am new component</p>
+	return (
+		<div>
+			<h3 className='customComponent'>I am custom component</h3>
+
+			<div>
+				<p>Paragraph insinde custom component</p>
+			</div>
 		</div>
 		)
 }
